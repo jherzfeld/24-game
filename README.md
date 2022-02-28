@@ -2,6 +2,9 @@
 In this repository the 24 Game has been implemented in python.
 The goal is for the player to enter an expression that (numerically) evaluates to 24.
 
+Four numbers are generated randomly between 1 and 9 with repetitions allowed.
+The program prompts for the player to enter an arithmetic expression using just those, and all of those four digits, used exactly once each. The program checks and then evaluates the expression.
+
 Only the following operators/functions are allowed: multiplication, division, addition, subtraction 
 
 # Requirements
