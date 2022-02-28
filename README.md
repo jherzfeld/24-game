@@ -20,20 +20,20 @@ To start the game just run\
 ## Examples
 > solve: 1 2 3 4  
 > (4 * 3 * 2) + 1  
-> no, this is 25  
+> No, this is 25...
 
 > solve: 1 2 3 4  
 > 4 * 3 * (1 + 1)  
-> sorry, this is not a valid expression
+> Sorry, this is not a valid expression.
 
 > solve: 1 2 1 1  
 > 12 * (1 + 1)  
-> sorry, this is not a valid expression
+> Sorry, this is not a valid expression.
 
 > solve: 1 1 1 1  
 > (1 + 1 + 1 + 1)!  
-> sorry, this is not a valid expression
+> Sorry, this is not a valid expression.
 
 > solve: 8 4 7 4  
 > (7 - (8 / 8)) * 4  
-> yes, this is indeed 24
+> That is Correct!
