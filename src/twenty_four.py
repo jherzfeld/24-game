@@ -45,6 +45,7 @@ class TwentyFour():
             if result == 24:
                 print("That is Correct!\n")
             else:
+                result = round(result,2)
                 print("No this is {}...\n".format(result))
         else:
             print("Sorry, this is not a valid expression.\n")
