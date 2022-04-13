@@ -27,10 +27,7 @@ class TwentyFour():
         user_numbers.sort()
         self.numbers.sort()
 
-        isFourNumbers = len(user_numbers) == len(self.numbers)
-        isCorrectNumbers = user_numbers == self.numbers
-
-        return isFourNumbers & isCorrectNumbers
+        return  user_numbers == self.numbers
 
     def solve_equation(self):
         return self.interpreter.evaluate(self.user_input)
